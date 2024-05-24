@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GrocieMart</title>
+    <link rel="stylesheet" href="STYLE.css">
+</head>
+<body>
+
+<header>
+
+<nav>
+    <div class="container">
+            <h1 class="webname">GrocieMart</h1>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </label>
+            <div class="navbar">
+        
+                
+                <ul>
+                    <li><a href="index.html">Home page</a></li>
+                    <li><a href="Supermarket - About Us.html">About Us</a></li>
+                    <li><a href="Supermarket - Dairy products.html">Dairy Products</a></li>
+                    <li><a href="Supermarket - Vegetables.html">Vegetables</a></li>
+                    <li><a href="Supermarket - Cosmetics.html">Cosmetics and Skin Care Products</a></li>
+                    <li><a href="Supermarket - Order page.html">Order Page</a></li>
+                    <li><a class="loyaltyregistration" href="Supermarket - Loyalty registration page.html">Loyalty Registration</a></li>
+        </ul>
+        </div>
+    </nav>
+    </header><hr>
+    <br><br>
+
+    <div class="order-container">
+        <div class="order-image">
+            <img src="order-1.jpg">
+            <img src="order-2.jpg">
+        </div>
+        <div class="order-box">
+    <form class="order-page">
+        <fieldset>
+            <legend><b>Customer Information</b></legend>
+            <div class="order-outline">
+            <p>
+                <label for="customerName">Name:</label>
+                <input type="text" id="customerName" name="customerName" required>
+            </p>
+            <p>
+                <label for="customerEmail">Email:</label>
+                <input type="email" id="customerEmail" name="customerEmail" required>
+            </p>
+            <p>
+                <label for="customerPhone">Phone Number:</label>
+                <input type="tel" id="customerPhone" name="customerPhone" required>
+            </p>
+            <p>
+                <label for="customerAddress">Address:</label>
+                <input type="text" id="customerAddress" name="customerAddress" required>
+            </p><br>
+            <legend><b>Order Details</b></legend>
+            <div class="order-outline">
+            <p>
+                <label for="product">Product:</label>
+                <select id="product" name="product" required>
+                    <option value="">Select a product</option>
+                    <option value="Milk">Kotmale Fresh Milk</option>
+                    <option value="Yogurt">Anchor Newdale Yogurt</option>
+                    <option value="Cheese">Happy Cow Cheese</option>
+                    <option value="Vegetables">Anchor Milk Powder</option>
+                    <option value="biscuits">Munchee biscuits</option>
+                    <option value="Butter">Astra Butter</option>
+                    <option value="Tomato">Tomato</option>
+                    <option value="Onions">Onions</option>
+                    <option value="beetroot">Beetroot</option>
+                    <option value="Potato">Potato</option>
+                    <option value="Carrot">Carrot</option>
+                    <option value="cabbage">Cabbage</option>
+                    <option value="eyeshadow">Eyeshadow</option>
+                    <option value="moisturizer">Moisturizer</option>
+                    <option value="Sunscreen">Sunscreen</option>
+                    <option value="lipstick">Lipstick</option>
+                    <option value="Whitenin">Whitening Cream</option>
+                    <option value="facial">Facial Cleanser</option>
+                </select>
+            </p>
+            <p>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" required>
+            </p>
+            <p>
+                <label for="specialInstructions">Special Instructions:</label>
+                <textarea id="specialInstructions" name="specialInstructions" rows="4"></textarea>
+            </p>
+        </fieldset>
+        <button type="submit">Submit Order</button>
+    </form></div></div></div></div>
+    <br><br><br>    <br><br><br><br>
+
+
+    <footer>
+        <div class="footer-content">
+            <p>Phone: +94 75 523 4835</p>
+            <p>Email: online@grociessupermarket.lk</p>
+            <p>Address: LAUGFS Supermarket, Kolonnawa, Sri Lanka</p>
+            <p>&copy; 2024 Grocies Supermarket. All rights reserved.</p><br>
+        </div>
+    </footer>
+
+</body>
+</html>
